@@ -5,6 +5,12 @@
   "repository": "git@github.com:aotuzuche/eslint-config-atzuche.git",
   "author": "shao <darryshaw@gmail.com>",
   "license": "MIT",
+  "files": [
+    "base.js",
+    "index.js",
+    "react.js",
+    "typescript.js"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
