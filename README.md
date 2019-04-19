@@ -1,6 +1,6 @@
 # eslint-config-atzuche
 
-基于 [eslint-config-atzuche](https://github.com/AlloyTeam/eslint-config-atzuche)
+基于 [eslint-config-alloy](https://github.com/AlloyTeam/eslint-config-alloy)
 
 ## 使用方法
 
