@@ -6,7 +6,6 @@ module.exports = {
       {
         semi: false,
         singleQuote: true,
-        trailingComma: 'none',
         tabWidth: 2,
         printWidth: 100,
         useTabs: false,
@@ -16,12 +15,12 @@ module.exports = {
         arrowParens: 'always',
         rangeStart: 0,
         rangeEnd: Infinity,
-        requirePragma: false,
-        insertPragma: false,
+        requirePragma: true,
+        insertPragma: true,
         proseWrap: 'preserve',
         htmlWhitespaceSensitivity: 'css',
-        endOfLine: 'lf'
-      }
+        endOfLine: 'lf',
+      },
     ],
     semi: ['error', 'never'],
     'template-curly-spacing': 'off',
@@ -30,6 +29,16 @@ module.exports = {
     'no-param-reassign': 0,
     'no-extend-native': 0,
     'no-script-url': 0,
-    'no-proto': 'error'
-  }
+    'no-proto': 'error',
+    'comma-dangle': [
+      'error',
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'ignore',
+      },
+    ],
+  },
 }
