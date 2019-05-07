@@ -4,9 +4,9 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
+        semi: false,
         singleQuote: true,
         trailingComma: 'none',
-        semi: false,
         tabWidth: 2,
         printWidth: 100,
         useTabs: false,
@@ -24,6 +24,9 @@ module.exports = {
       }
     ],
     semi: ['error', 'never'],
+    'template-curly-spacing': 'off',
+    complexity: ['error', 100],
+    indent: 'off',
     'no-param-reassign': 0,
     'no-extend-native': 0,
     'no-script-url': 0,

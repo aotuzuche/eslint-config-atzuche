@@ -1,9 +1,5 @@
 module.exports = {
-  extends: [
-    'eslint-config-alloy/typescript',
-    './base.js',
-    'prettier/@typescript-eslint'
-  ],
+  extends: ['eslint-config-alloy/typescript', './base.js', 'prettier/@typescript-eslint'],
   globals: {
     // 这里填入你的项目需要的全局变量
     // 这里值为 false 表示这个全局变量不允许被重新赋值，比如：
@@ -18,6 +14,16 @@ module.exports = {
       {
         SwitchCase: 1,
         flatTernaryExpressions: true
+      }
+    ],
+    '@typescript-eslint/no-this-alias': 0,
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        args: 'none',
+        caughtErrors: 'none',
+        ignoreRestSiblings: true
       }
     ]
   }
