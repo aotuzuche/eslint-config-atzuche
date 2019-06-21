@@ -24,15 +24,16 @@ module.exports = {
     ],
     semi: [ 'error', 'never' ],
     'template-curly-spacing': 'off',
-    'object-curly-spacing': [ "error", "always" ],
-    'switch-colon-spacing': [ "error", { "after": true, "before": false } ],
-    'array-bracket-spacing': [ "error", "always", { "singleValue": false } ],
+    'object-curly-spacing': [ 'error', 'always' ],
+    'switch-colon-spacing': [ 'error', { after: true, before: false } ],
+    'array-bracket-spacing': [ 'error', 'always', { singleValue: false } ],
     complexity: [ 'error', 100 ],
-    indent: 'off',
     'no-param-reassign': 0,
     'no-extend-native': 0,
     'no-script-url': 0,
     'no-proto': 'error',
+    quotes: [ 2, 'single' ],
+    'key-spacing': [ 2, { beforeColon: false, afterColon: true } ],
     'comma-dangle': [
       'error',
       {
@@ -43,5 +44,6 @@ module.exports = {
         functions: 'ignore',
       },
     ],
+    'no-void': 0,
   },
 }
