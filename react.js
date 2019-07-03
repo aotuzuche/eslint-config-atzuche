@@ -10,7 +10,7 @@ module.exports = {
   rules: {
     'react/jsx-indent': [ 'error', 2 ],
     'react/jsx-indent-props': [ 'error', 2 ],
-    'react/no-unescaped-entities': false,
+    'react/no-unescaped-entities': 'error',
     'react/sort-comp': [
       2,
       {

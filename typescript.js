@@ -33,10 +33,10 @@ module.exports = {
         'requireLast': true,
       },
       'singleline': {
-        'delimiter': 'none',
-        'requireLast': true,
+        'delimiter': 'comma',
+        'requireLast': false,
       },
     } ],
-    '@typescript-eslint/explicit-member-accessibility': [{ accessibility: 'no-public' }],
+    '@typescript-eslint/explicit-member-accessibility': [ 'error', { accessibility: 'no-public' } ],
   },
 }
