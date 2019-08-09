@@ -23,7 +23,8 @@ module.exports = {
     'template-curly-spacing': 'off',
     'object-curly-spacing': ['error', 'always'],
     'switch-colon-spacing': ['error', { after: true, before: false }],
-    'array-bracket-spacing': ['error', 'always', { singleValue: false }],
+    // 和 perttier 的冲突
+    // 'array-bracket-spacing': ['error', 'always', { singleValue: false }],
     complexity: ['error', 100],
     'no-param-reassign': 0,
     'no-extend-native': 0,

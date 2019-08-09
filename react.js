@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [ 'eslint-config-alloy/react', './base.js', 'prettier/react' ],
+  extends: ['eslint-config-alloy/react', 'prettier/react', './base.js'],
   globals: {
     // 这里填入你的项目需要的全局变量
     // 这里值为 false 表示这个全局变量不允许被重新赋值，比如：
@@ -8,9 +8,11 @@ module.exports = {
     // ReactDOM: false
   },
   rules: {
-    'react/jsx-indent': [ 'error', 2 ],
-    'react/jsx-indent-props': [ 'error', 2 ],
+    'react/jsx-indent': ['error', 2],
+    'react/jsx-indent-props': ['error', 2],
     'react/no-unescaped-entities': 'error',
+    // 兼容旧的项目，暂时关掉
+    'react/no-unsafe': 'off',
     'react/sort-comp': [
       2,
       {
@@ -55,5 +57,10 @@ module.exports = {
         },
       },
     ],
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
   },
 }

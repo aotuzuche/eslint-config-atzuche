@@ -1,6 +1,3 @@
-function testName(params) {
-  const a = 1
-  return a
-}
-
-console.log(testName())
+const index = 1
+const home = 1
+export default [index, home]
