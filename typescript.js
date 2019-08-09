@@ -1,5 +1,5 @@
 module.exports = {
-  extends: [ 'eslint-config-alloy/typescript', './base.js', 'prettier/@typescript-eslint' ],
+  extends: ['./base.js', 'eslint-config-alloy/typescript', 'prettier/@typescript-eslint'],
   globals: {
     // 这里填入你的项目需要的全局变量
     // 这里值为 false 表示这个全局变量不允许被重新赋值，比如：
@@ -27,16 +27,19 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    '@typescript-eslint/member-delimiter-style': [ 'error', {
-      'multiline': {
-        'delimiter': 'none',
-        'requireLast': true,
+    '@typescript-eslint/member-delimiter-style': [
+      'error',
+      {
+        multiline: {
+          delimiter: 'none',
+          requireLast: true,
+        },
+        singleline: {
+          delimiter: 'comma',
+          requireLast: false,
+        },
       },
-      'singleline': {
-        'delimiter': 'comma',
-        'requireLast': false,
-      },
-    } ],
-    '@typescript-eslint/explicit-member-accessibility': [ 'error', { accessibility: 'no-public' } ],
+    ],
+    '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
   },
 }

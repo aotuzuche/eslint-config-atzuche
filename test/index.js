@@ -1,4 +1,4 @@
-function testName(params: string) {
+function testName(params) {
   const a = 1
   return a
 }
