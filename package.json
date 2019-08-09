@@ -5,6 +5,9 @@
   "repository": "git@github.com:aotuzuche/eslint-config-atzuche.git",
   "author": "shao <darryshaw@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "np": "np --yolo"
+  },
   "files": [
     "base.js",
     "index.js",
@@ -35,6 +38,7 @@
     "eslint": "^5.16.0",
     "husky": "^3.0.3",
     "lint-staged": "^9.2.1",
+    "np": "^5.0.3",
     "prettier": "^1.18.2",
     "typescript": "^3.5.3"
   }
