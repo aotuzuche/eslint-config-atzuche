@@ -42,7 +42,8 @@ module.exports = {
         functions: 'ignore',
       },
     ],
-    'no-void': ['error'],
+    // 不允许使用undefined，用void 0表示
+    'no-undefined': ['error'],
     // 逗号的空格规范，逗号前不允许加空格，逗号后强制加空格
     'comma-spacing': ['error', { before: false, after: true }],
     // 数组的左括号右侧和右括号左侧不允许空格，不然的话数组套对象很丑
