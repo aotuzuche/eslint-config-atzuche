@@ -12,7 +12,7 @@ module.exports = {
         jsxSingleQuote: false,
         bracketSpacing: true,
         jsxBracketSameLine: false,
-        arrowParens: 'always',
+        arrowParens: 'avoid',
         proseWrap: 'preserve',
         htmlWhitespaceSensitivity: 'css',
         endOfLine: 'lf',
