@@ -6,7 +6,7 @@
   "author": "shao <darryshaw@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "np": "np --yolo"
+    "np": "np --yolo --no-yarn"
   },
   "files": [
     "base.js",
