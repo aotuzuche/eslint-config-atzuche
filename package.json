@@ -6,7 +6,8 @@
   "author": "shao <darryshaw@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "np": "np --yolo --no-yarn"
+    "np": "np --yolo --no-yarn",
+    "lint": "eslint . --ext '.js,.jsx,.ts,.tsx'"
   },
   "files": [
     "base.js",
