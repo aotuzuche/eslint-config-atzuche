@@ -12,9 +12,9 @@ jobs:
         uses: actions/setup-node@v1
         with:
           version: 10.x
-      - name: npm install, build, and test
+      - name: yarn install, lint
         run: |
-          npm install
-          npm run lint
+          yarn
+          yarn lint
         env:
           CI: true
