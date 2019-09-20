@@ -7,7 +7,9 @@
   "license": "MIT",
   "scripts": {
     "np": "np --yolo --no-yarn",
-    "lint": "eslint . --ext '.js,.jsx,.ts,.tsx'"
+    "lint": "yarn eslint && yarn tsc",
+    "eslint": "eslint . --ext '.js,.jsx,.ts,.tsx'",
+    "tsc": "tsc --noEmit"
   },
   "files": [
     "base.js",
@@ -27,20 +29,22 @@
     ]
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.13.0",
-    "@typescript-eslint/parser": "^1.13.0",
-    "babel-eslint": "^10.0.2",
-    "eslint-config-alloy": "2.0.5",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^2.3.0",
+    "@typescript-eslint/parser": "^2.3.0",
+    "babel-eslint": "^10.0.3",
+    "eslint-config-alloy": "^3.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.14.3"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "@types/react": "^16.9.2",
+    "eslint": "^6.4.0",
     "husky": "^3.0.3",
     "lint-staged": "^9.2.1",
     "np": "^5.0.3",
     "prettier": "^1.18.2",
+    "react": "^16.9.0",
     "typescript": "^3.5.3"
   }
 }
