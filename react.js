@@ -57,6 +57,7 @@ module.exports = {
         },
       },
     ],
+    'no-invalid-this': 'off',
   },
   settings: {
     react: {
