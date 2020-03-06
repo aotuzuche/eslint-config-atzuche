@@ -13,6 +13,10 @@ class Demo extends PureComponent<IProps, IState> {
     age: 18,
   }
 
+  ts(a1, a2, a3, a4) {
+    console.log(a1, a2, a3, a4)
+  }
+
   render() {
     const { name } = this.props
     const { age } = this.state

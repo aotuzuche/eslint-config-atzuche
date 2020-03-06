@@ -49,5 +49,6 @@ module.exports = {
     'comma-spacing': ['error', { before: false, after: true }],
     // 数组的左括号右侧和右括号左侧不允许空格，不然的话数组套对象很丑
     'array-bracket-spacing': ['error', 'never'],
+    'max-params': ['error', 4],
   },
 }
