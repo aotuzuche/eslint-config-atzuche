@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ['react-hooks'],
   extends: ['alloy', 'alloy/react', 'prettier/react', './base.js'],
   globals: {
     // 这里填入你的项目需要的全局变量
@@ -8,6 +9,7 @@ module.exports = {
     // ReactDOM: false
   },
   rules: {
+    'react-hooks/rules-of-hooks': 'error',
     'react/jsx-indent': ['error', 2],
     'react/jsx-indent-props': ['error', 2],
     'react/no-unescaped-entities': 'error',
