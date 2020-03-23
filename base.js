@@ -22,6 +22,8 @@ module.exports = {
     // 类方法之间要换行，单行的除外（属性定义）
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     semi: ['error', 'never'],
+    // 允许短链，允许三目
+    'no-unused-expressions': 0,
     'template-curly-spacing': 'off',
     'object-curly-spacing': ['error', 'always'],
     'switch-colon-spacing': ['error', { after: true, before: false }],
