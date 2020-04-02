@@ -22,6 +22,8 @@ module.exports = {
     // 类方法之间要换行，单行的除外（属性定义）
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     semi: ['error', 'never'],
+    // 优先使用可选链，关闭，因为目前支持不太好，需要把eslint的parser换成babel-eslint，可能会造成其他规则有问题
+    '@typescript-eslint/prefer-optional-chain': 'off',
     // 允许短链，允许三目
     'no-unused-expressions': 0,
     'template-curly-spacing': 'off',
