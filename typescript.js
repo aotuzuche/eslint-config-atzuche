@@ -41,5 +41,6 @@ module.exports = {
       },
     ],
     '@typescript-eslint/explicit-member-accessibility': ['error', { accessibility: 'no-public' }],
+    '@typescript-eslint/no-require-imports': 'off',
   },
 }
