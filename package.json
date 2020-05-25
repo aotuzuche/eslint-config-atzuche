@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atzuche",
-  "version": "0.0.25",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:aotuzuche/eslint-config-atzuche.git",
   "author": "shao <darryshaw@gmail.com>",
@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@types/react": "^16.9.2",
-    "eslint": "^6.8.0",
+    "eslint": "^7.0.0",
     "husky": "^3.0.3",
     "lint-staged": "^9.2.1",
     "np": "^5.0.3",
