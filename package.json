@@ -6,10 +6,10 @@
   "author": "shao <darryshaw@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "np": "np --yolo --no-yarn",
     "lint": "yarn eslint && yarn tsc",
     "eslint": "eslint . --ext '.js,.jsx,.ts,.tsx'",
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc --noEmit",
+    "prepublishOnly": "yarn lint && np --no-cleanup --yolo --no-publish"
   },
   "files": [
     "base.js",

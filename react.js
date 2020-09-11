@@ -10,8 +10,6 @@ module.exports = {
   },
   rules: {
     'react-hooks/rules-of-hooks': 'error',
-    'react/jsx-indent': ['error', 2],
-    'react/jsx-indent-props': ['error', 2],
     'react/no-unescaped-entities': 'error',
     // 兼容旧的项目，暂时关掉
     'react/no-unsafe': 'off',
