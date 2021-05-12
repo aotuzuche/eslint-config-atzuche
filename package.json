@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atzuche",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "index.js",
   "repository": "git@github.com:aotuzuche/eslint-config-atzuche.git",
   "author": "shao <darryshaw@gmail.com>",
@@ -32,7 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^4.11.0",
     "@typescript-eslint/parser": "^4.11.0",
     "babel-eslint": "^10.1.0",
-    "eslint-config-alloy": "^3.7.4",
+    "eslint-config-alloy": "^4.1.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-react": "^7.20.4",
