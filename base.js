@@ -1,24 +1,6 @@
 module.exports = {
   extends: ['plugin:prettier/recommended'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        semi: false,
-        singleQuote: true,
-        tabWidth: 2,
-        printWidth: 100,
-        useTabs: false,
-        jsxSingleQuote: false,
-        bracketSpacing: true,
-        jsxBracketSameLine: false,
-        arrowParens: 'avoid',
-        proseWrap: 'preserve',
-        htmlWhitespaceSensitivity: 'css',
-        endOfLine: 'lf',
-        trailingComma: 'all',
-      },
-    ],
     // 类方法之间要换行，单行的除外（属性定义）
     'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: true }],
     semi: ['error', 'never'],
