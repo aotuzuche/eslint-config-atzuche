@@ -8,8 +8,7 @@
   "scripts": {
     "lint": "yarn eslint && yarn tsc",
     "eslint": "eslint . --ext '.js,.jsx,.ts,.tsx'",
-    "tsc": "tsc --noEmit",
-    "prepublishOnly": "yarn lint && np --no-cleanup --yolo --no-publish"
+    "tsc": "tsc --noEmit"
   },
   "files": [
     "base.js",
