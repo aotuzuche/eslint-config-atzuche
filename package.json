@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-atzuche",
-  "version": "3.0.7",
+  "version": "3.0.8",
   "main": "index.js",
   "repository": "git@github.com:aotuzuche/eslint-config-atzuche.git",
   "author": "shao <darryshaw@gmail.com>",

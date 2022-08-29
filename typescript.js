@@ -44,5 +44,6 @@ module.exports = {
     '@typescript-eslint/no-require-imports': 'off',
     '@typescript-eslint/no-invalid-this': 'off',
     'react/no-this-in-sfc': 'off',
+    useUnknownInCatchVariables: 'off',
   },
 }
